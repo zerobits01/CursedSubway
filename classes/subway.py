@@ -162,10 +162,11 @@ def run_subway_lines(global_time: GlobalTime, lines):
         print(5*'#')
         ############################### 06:30 to 21:30 ###############################
         while(True):
-            print(global_time.get_date_time())
-            print_people_info([lines[0]])
+
             if global_time.hour == 21 and global_time.minute == 30:
                 break
+            print(global_time.get_date_time())
+            print_people_info([lines[0]])
             for j in range(0,6):
                 line1[j].generate_current_input()
             for i in reversed(range(6)):
@@ -187,6 +188,7 @@ def run_subway_lines(global_time: GlobalTime, lines):
         ############################### 21:30 to 22:00 ###############################
         for k in range(5):
             print(global_time.get_date_time())
+            print_people_info([lines[0]])
             for i in reversed(range(6)):
                     line1[i].put_people_inside()
                     # if line1[i].prev_stations.__len__() != 0:
@@ -200,7 +202,6 @@ def run_subway_lines(global_time: GlobalTime, lines):
                                 line1[i].prev_stations[0].people_to_next[line1[i].name] + \
                                 line1[i].prev_stations[1].people_to_next[line1[i].name]
                     line1[i].define_people_to_next()
-            print_people_info([lines[0]])
             global_time.increase_time()
         else:
             print(global_time.get_date_time())

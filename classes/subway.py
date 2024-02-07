@@ -162,13 +162,12 @@ def run_subway_lines(global_time: GlobalTime, lines):
         print(5*'#')
         ############################### 06:30 to 21:30 ###############################
         while(True):
-
             if global_time.hour == 21 and global_time.minute == 30:
                 break
-            print(global_time.get_date_time())
-            print_people_info([lines[0]])
             for j in range(0,6):
                 line1[j].generate_current_input()
+            print(global_time.get_date_time())
+            print_people_info([lines[0]])
             for i in reversed(range(6)):
                     line1[i].put_people_inside()
                     # if line1[i].prev_stations.__len__() != 0:

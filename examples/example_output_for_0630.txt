@@ -1,0 +1,54 @@
+1-1-1403 6:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 39, {'shariati': 39}] # all people at 0600 has get in
+['shariati', 13, 0, 0, {'beheshti': 0}]
+['beheshti', 8, 0, 0, {'heravi': 0, 'dolat': 0}]
+['dolat', 18, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 10, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['kaharizak', 0, 0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 21, {'shariati': 21}]
+['shariati', 0, 0, 61, {'beheshti': 61}]
+['beheshti', 21, 0, 0, {'heravi': 0, 'dolat': 0}]
+['dolat', 33, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 25, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['kaharizak', 0, 0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 41, {'shariati': 41}]
+['shariati', 0, 0, 37, {'beheshti': 37}]
+['beheshti', 0, 0, 91, {'heravi': 45, 'dolat': 46}]
+['dolat', 42, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 41, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['kaharizak', 0, 0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 30, {'shariati': 30}]
+['shariati', 0, 0, 60, {'beheshti': 60}]
+['beheshti', 0, 0, 46, {'heravi': 23.0, 'dolat': 23.0}]
+['dolat', 0, 0, 94, {'shemiran': 47.0, 'mohammadie': 47.0}]
+['mohammadie', 53, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['kaharizak', 0, 0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 21, {'shariati': 21}]
+['shariati', 0, 0, 46, {'beheshti': 46}]
+['beheshti', 0, 0, 74, {'heravi': 37.0, 'dolat': 37.0}]
+['dolat', 0, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 0, 0, 110.0, {'molavi': 55.0, 'kaharizak': 55.0}]
+['kaharizak', 0, 0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 42, {'shariati': 42}]
+['shariati', 0, 0, 38, {'beheshti': 38}]
+['beheshti', 0, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 0, 0, 51.0, {'shemiran': 25, 'mohammadie': 26}]
+['mohammadie', 0, 0, 37.0, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 55.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$

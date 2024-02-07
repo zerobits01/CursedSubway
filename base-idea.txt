@@ -1,0 +1,69 @@
+1. i have a global time(it changes 6 minutes 6 minutes) it increases if and only if the 4 lines have generated the data
+2. i can use 4 threads for each line => so i have to use a kinda mutex or sth like that to generate values and ...
+2.1. all of the arrays are shared buffers so that we can use them for checking the hub stations
+	people from input rate shouldnt be outputed - so maximumly at each state we can have output rate of last station
+3. each line checks the time if the time is changed the main thread increases the time
+4. these are the base ideas
+
+
+# i am really different!
+
+
+
+we have 4 subway lines with 19 stations
+
+each station a poasson distribution between 30 to 40
+start stations only input / last stations only output
+
+dataset: (station-name, date-time, input, output)
+
+each line has 6 stations
+we have hub stations
+each 30 minutes a subway starts from each start-station
+between each station we have 6 minutes time(from starting statation to last 30 minutes)
+
+1  => 2  => 3  => 4  => 5  => 6
+0  => 6  => 12 => 18 => 24 => 30
+6  => 12 => 18 => 24 => 30 => 36
+
+tajrish => shariati => beheshti => dolat      => mohammadie => kaharizak
+sanaat  => valiasr  => teatr    => mohammadie => molavi     => basij
+satari  => valiasr  => jahad    => beheshti   => heravi     => ghaem
+azadi   => teatr    => ferdowsi => dolat      => shemiran   => bouali
+
+dolat      => hub 1_4
+mohammadie => hub 1_2
+teatr      => hub 2_4
+valiasr    => hub 2_3
+beheshti   => hub 1_3
+
+
+distributions:
+=> start statoins: poasson 30 to 40
+=> hub station output: 15 to 20
+=> normal station output: 8 to 12
+=> all station except starting points input(including hubs): 10 to 14
+=> last station output: all the people
+
+what can be the problems:
+1. output more than input
+2. hub station distribution
+3. ....
+
+#implementing that
+#implement the graph design
+#implement dataset for 30 days, i gave the idea with shared arrays and also multithreaded(start from 6 last subway starts since 21:30)
+
+#implement: for each statation train a model to predict output
+#implement: " " input
+#implement: " " at each time predict the people inside of metro
+#implement: " " the poasson rate for each station
+#implement: choose a good validation param test it and show why its good
+
+why choosing each model? i wanna use polinomial regression
+save the models and outputs
+
+so if we gonna train model for each station i can save the data for each of them seperately(i can say that i have generated and saved that and i have seperated that with groupby in pandas)
+
+pay attention that people coming as input cannot be output / only people in the subway can get out(you have to pay attention tolimit it)
+

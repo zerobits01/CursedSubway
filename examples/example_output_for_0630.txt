@@ -1,54 +1,1457 @@
 1-1-1403 6:0
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 39, {'shariati': 39}] # all people at 0600 has get in
-['shariati', 13, 0, 0, {'beheshti': 0}]
-['beheshti', 8, 0, 0, {'heravi': 0, 'dolat': 0}]
-['dolat', 18, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
-['mohammadie', 10, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['tajrish', 38, 0, 0, {'shariati': 0}]
+['shariati', 18, 0, 0, {'beheshti': 0}]
+['beheshti', 9, 0, 0, {'heravi': 0, 'dolat': 0}]
+['dolat', 16, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 14, 0, 0, {'molavi': 0, 'kaharizak': 0}]
 ['kaharizak', 0, 0, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
 1-1-1403 6:6
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 21, {'shariati': 21}]
-['shariati', 0, 0, 61, {'beheshti': 61}]
-['beheshti', 21, 0, 0, {'heravi': 0, 'dolat': 0}]
-['dolat', 33, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
-['mohammadie', 25, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['tajrish', 27, 0, 0, {'shariati': 0}]
+['shariati', 18, 0, 56, {'beheshti': 56}]
+['beheshti', 16, 0, 0, {'heravi': 0, 'dolat': 0}]
+['dolat', 28, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 19, 0, 0, {'molavi': 0, 'kaharizak': 0}]
 ['kaharizak', 0, 0, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
 1-1-1403 6:12
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 41, {'shariati': 41}]
-['shariati', 0, 0, 37, {'beheshti': 37}]
-['beheshti', 0, 0, 91, {'heravi': 45, 'dolat': 46}]
-['dolat', 42, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
-['mohammadie', 41, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['tajrish', 27, 0, 27, {'shariati': 27}]
+['shariati', 10, 0, 18, {'beheshti': 18}]
+['beheshti', 9, 0, 72, {'heravi': 36.0, 'dolat': 36.0}]
+['dolat', 40, 0, 0, {'shemiran': 0, 'mohammadie': 0}]
+['mohammadie', 29, 0, 0, {'molavi': 0, 'kaharizak': 0}]
 ['kaharizak', 0, 0, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
 1-1-1403 6:18
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 30, {'shariati': 30}]
-['shariati', 0, 0, 60, {'beheshti': 60}]
-['beheshti', 0, 0, 46, {'heravi': 23.0, 'dolat': 23.0}]
-['dolat', 0, 0, 94, {'shemiran': 47.0, 'mohammadie': 47.0}]
-['mohammadie', 53, 0, 0, {'molavi': 0, 'kaharizak': 0}]
+['tajrish', 28, 0, 27, {'shariati': 27}]
+['shariati', 16, 0, 37, {'beheshti': 37}]
+['beheshti', 14, 0, 27, {'heravi': 13, 'dolat': 14}]
+['dolat', 10, 0, 76.0, {'shemiran': 38.0, 'mohammadie': 38.0}]
+['mohammadie', 41, 0, 0, {'molavi': 0, 'kaharizak': 0}]
 ['kaharizak', 0, 0, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
 1-1-1403 6:24
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 21, {'shariati': 21}]
-['shariati', 0, 0, 46, {'beheshti': 46}]
-['beheshti', 0, 0, 74, {'heravi': 37.0, 'dolat': 37.0}]
-['dolat', 0, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
-['mohammadie', 0, 0, 110.0, {'molavi': 55.0, 'kaharizak': 55.0}]
+['tajrish', 30, 0, 28, {'shariati': 28}]
+['shariati', 5, 0, 43, {'beheshti': 43}]
+['beheshti', 7, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 9, 0, 24, {'shemiran': 12.0, 'mohammadie': 12.0}]
+['mohammadie', 12, 0, 79.0, {'molavi': 39, 'kaharizak': 40}]
 ['kaharizak', 0, 0, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
+#####
 1-1-1403 6:30
 ['name', 'input', 'output', 'people_inside', 'people_to_next']
-['tajrish', 0, 0, 42, {'shariati': 42}]
-['shariati', 0, 0, 38, {'beheshti': 38}]
-['beheshti', 0, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
-['dolat', 0, 0, 51.0, {'shemiran': 25, 'mohammadie': 26}]
-['mohammadie', 0, 0, 37.0, {'molavi': 18, 'kaharizak': 19}]
-['kaharizak', 0, 55.0, 0, {}]
+['tajrish', 40, 0, 30, {'shariati': 30}]
+['shariati', 18, 0, 33, {'beheshti': 33}]
+['beheshti', 13, 0, 50, {'heravi': 25.0, 'dolat': 25.0}]
+['dolat', 16, 0, 35, {'shemiran': 17, 'mohammadie': 18}]
+['mohammadie', 9, 0, 24.0, {'molavi': 12.0, 'kaharizak': 12.0}]
+['kaharizak', 0, 40, 0, {}]
 #$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 40, {'shariati': 40}]
+['shariati', 13, 0, 48, {'beheshti': 48}]
+['beheshti', 9, 0, 46, {'heravi': 23.0, 'dolat': 23.0}]
+['dolat', 17, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 10, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 12.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 34, {'shariati': 34}]
+['shariati', 7, 0, 53, {'beheshti': 53}]
+['beheshti', 12, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 11, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 10, 0, 31, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 33, {'shariati': 33}]
+['shariati', 8, 0, 41, {'beheshti': 41}]
+['beheshti', 12, 0, 65, {'heravi': 32, 'dolat': 33}]
+['dolat', 13, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 14, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 6:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 25, 0, 40, {'shariati': 40}]
+['shariati', 10, 0, 41, {'beheshti': 41}]
+['beheshti', 11, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 14, 0, 46, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 9, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 25, {'shariati': 25}]
+['shariati', 6, 0, 50, {'beheshti': 50}]
+['beheshti', 8, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 9, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 4, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 30, {'shariati': 30}]
+['shariati', 13, 0, 31, {'beheshti': 31}]
+['beheshti', 13, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 9, 0, 35.0, {'shemiran': 17, 'mohammadie': 18}]
+['mohammadie', 5, 0, 25, {'molavi': 12, 'kaharizak': 13}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 37, {'shariati': 37}]
+['shariati', 10, 0, 43, {'beheshti': 43}]
+['beheshti', 10, 0, 44, {'heravi': 22.0, 'dolat': 22.0}]
+['dolat', 13, 0, 38.0, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 15, 0, 23, {'molavi': 11, 'kaharizak': 12}]
+['kaharizak', 0, 13, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 43, 0, 39, {'shariati': 39}]
+['shariati', 11, 0, 47, {'beheshti': 47}]
+['beheshti', 11, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 17, 0, 35.0, {'shemiran': 17, 'mohammadie': 18}]
+['mohammadie', 16, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 12, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 43, {'shariati': 43}]
+['shariati', 20, 0, 50, {'beheshti': 50}]
+['beheshti', 13, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 19, 0, 44, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 18, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 41, {'shariati': 41}]
+['shariati', 14, 0, 63, {'beheshti': 63}]
+['beheshti', 8, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 11, 0, 48.0, {'shemiran': 24.0, 'mohammadie': 24.0}]
+['mohammadie', 18, 0, 40.0, {'molavi': 20.0, 'kaharizak': 20.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 49, 0, 41, {'shariati': 41}]
+['shariati', 10, 0, 55, {'beheshti': 55}]
+['beheshti', 9, 0, 71, {'heravi': 35, 'dolat': 36}]
+['dolat', 8, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 15, 0, 42.0, {'molavi': 21.0, 'kaharizak': 21.0}]
+['kaharizak', 0, 20.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 49, {'shariati': 49}]
+['shariati', 16, 0, 51, {'beheshti': 51}]
+['beheshti', 11, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 14, 0, 44, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 11, 0, 37, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 21.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 26, 0, 40, {'shariati': 40}]
+['shariati', 16, 0, 65, {'beheshti': 65}]
+['beheshti', 8, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 14, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 7, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 7:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 26, {'shariati': 26}]
+['shariati', 8, 0, 56, {'beheshti': 56}]
+['beheshti', 10, 0, 73, {'heravi': 36, 'dolat': 37}]
+['dolat', 15, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 11, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 32, {'shariati': 32}]
+['shariati', 6, 0, 34, {'beheshti': 34}]
+['beheshti', 10, 0, 66, {'heravi': 33.0, 'dolat': 33.0}]
+['dolat', 11, 0, 52, {'shemiran': 26.0, 'mohammadie': 26.0}]
+['mohammadie', 11, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 32, {'shariati': 32}]
+['shariati', 16, 0, 38, {'beheshti': 38}]
+['beheshti', 15, 0, 44, {'heravi': 22.0, 'dolat': 22.0}]
+['dolat', 12, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 8, 0, 37.0, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 25, 0, 34, {'shariati': 34}]
+['shariati', 13, 0, 48, {'beheshti': 48}]
+['beheshti', 8, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 16, 0, 34.0, {'shemiran': 17.0, 'mohammadie': 17.0}]
+['mohammadie', 7, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 25, {'shariati': 25}]
+['shariati', 8, 0, 47, {'beheshti': 47}]
+['beheshti', 10, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 11, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 6, 0, 24.0, {'molavi': 12.0, 'kaharizak': 12.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 33, {'shariati': 33}]
+['shariati', 18, 0, 33, {'beheshti': 33}]
+['beheshti', 9, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 12, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 5, 0, 28, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 12.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 32, {'shariati': 32}]
+['shariati', 16, 0, 51, {'beheshti': 51}]
+['beheshti', 9, 0, 42, {'heravi': 21.0, 'dolat': 21.0}]
+['dolat', 10, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 11, 0, 25, {'molavi': 12, 'kaharizak': 13}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 30, {'shariati': 30}]
+['shariati', 6, 0, 48, {'beheshti': 48}]
+['beheshti', 4, 0, 60, {'heravi': 30.0, 'dolat': 30.0}]
+['dolat', 8, 0, 31.0, {'shemiran': 15, 'mohammadie': 16}]
+['mohammadie', 9, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 13, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 30, {'shariati': 30}]
+['shariati', 9, 0, 36, {'beheshti': 36}]
+['beheshti', 7, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 15, 0, 38.0, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 13, 0, 25, {'molavi': 12, 'kaharizak': 13}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 45, {'shariati': 45}]
+['shariati', 19, 0, 39, {'beheshti': 39}]
+['beheshti', 9, 0, 43, {'heravi': 21, 'dolat': 22}]
+['dolat', 5, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 9, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 13, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 8:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 40, {'shariati': 40}]
+['shariati', 16, 0, 64, {'beheshti': 64}]
+['beheshti', 11, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 15, 0, 27, {'shemiran': 13, 'mohammadie': 14}]
+['mohammadie', 14, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 36, {'shariati': 36}]
+['shariati', 9, 0, 56, {'beheshti': 56}]
+['beheshti', 9, 0, 75, {'heravi': 37, 'dolat': 38}]
+['dolat', 15, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 11, 0, 28, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 30, {'shariati': 30}]
+['shariati', 14, 0, 45, {'beheshti': 45}]
+['beheshti', 8, 0, 65, {'heravi': 32, 'dolat': 33}]
+['dolat', 9, 0, 53, {'shemiran': 26, 'mohammadie': 27}]
+['mohammadie', 13, 0, 31, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 43, 0, 41, {'shariati': 41}]
+['shariati', 11, 0, 44, {'beheshti': 44}]
+['beheshti', 13, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 20, 0, 42, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 10, 0, 40, {'molavi': 20.0, 'kaharizak': 20.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 43, {'shariati': 43}]
+['shariati', 11, 0, 52, {'beheshti': 52}]
+['beheshti', 12, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 18, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 8, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 20.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 35, {'shariati': 35}]
+['shariati', 12, 0, 54, {'beheshti': 54}]
+['beheshti', 9, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 11, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 12, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 29, 0, 33, {'shariati': 33}]
+['shariati', 17, 0, 47, {'beheshti': 47}]
+['beheshti', 7, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 14, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 7, 0, 36, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 29, {'shariati': 29}]
+['shariati', 8, 0, 50, {'beheshti': 50}]
+['beheshti', 9, 0, 54, {'heravi': 27.0, 'dolat': 27.0}]
+['dolat', 11, 0, 46, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 11, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 24, 0, 34, {'shariati': 34}]
+['shariati', 18, 0, 37, {'beheshti': 37}]
+['beheshti', 15, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 8, 0, 38.0, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 12, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 24, {'shariati': 24}]
+['shariati', 17, 0, 52, {'beheshti': 52}]
+['beheshti', 11, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 9, 0, 38, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 12, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 9:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 34, {'shariati': 34}]
+['shariati', 16, 0, 41, {'beheshti': 41}]
+['beheshti', 15, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 15, 0, 35.0, {'shemiran': 17, 'mohammadie': 18}]
+['mohammadie', 11, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 31, {'shariati': 31}]
+['shariati', 9, 0, 50, {'beheshti': 50}]
+['beheshti', 9, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 12, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 13, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 45, {'shariati': 45}]
+['shariati', 10, 0, 40, {'beheshti': 40}]
+['beheshti', 8, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 16, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 13, 0, 37, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 27, 0, 35, {'shariati': 35}]
+['shariati', 16, 0, 55, {'beheshti': 55}]
+['beheshti', 7, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 10, 0, 46, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 8, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 29, 0, 27, {'shariati': 27}]
+['shariati', 10, 0, 51, {'beheshti': 51}]
+['beheshti', 14, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 14, 0, 34.0, {'shemiran': 17.0, 'mohammadie': 17.0}]
+['mohammadie', 11, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 29, {'shariati': 29}]
+['shariati', 9, 0, 37, {'beheshti': 37}]
+['beheshti', 11, 0, 65, {'heravi': 32, 'dolat': 33}]
+['dolat', 17, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 8, 0, 28.0, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 39, {'shariati': 39}]
+['shariati', 12, 0, 38, {'beheshti': 38}]
+['beheshti', 9, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 15, 0, 50, {'shemiran': 25.0, 'mohammadie': 25.0}]
+['mohammadie', 15, 0, 31, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 33, {'shariati': 33}]
+['shariati', 10, 0, 51, {'beheshti': 51}]
+['beheshti', 9, 0, 47, {'heravi': 23, 'dolat': 24}]
+['dolat', 9, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 15, 0, 40.0, {'molavi': 20.0, 'kaharizak': 20.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 39, {'shariati': 39}]
+['shariati', 10, 0, 43, {'beheshti': 43}]
+['beheshti', 10, 0, 60, {'heravi': 30.0, 'dolat': 30.0}]
+['dolat', 14, 0, 33, {'shemiran': 16, 'mohammadie': 17}]
+['mohammadie', 14, 0, 35, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 20.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 37, {'shariati': 37}]
+['shariati', 17, 0, 49, {'beheshti': 49}]
+['beheshti', 12, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 11, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 13, 0, 31, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 10:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 36, {'shariati': 36}]
+['shariati', 15, 0, 54, {'beheshti': 54}]
+['beheshti', 10, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 14, 0, 38, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 11, 0, 35.0, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 33, {'shariati': 33}]
+['shariati', 16, 0, 51, {'beheshti': 51}]
+['beheshti', 7, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 9, 0, 45, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 9, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 35, {'shariati': 35}]
+['shariati', 11, 0, 49, {'beheshti': 49}]
+['beheshti', 14, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 12, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 8, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 30, {'shariati': 30}]
+['shariati', 10, 0, 46, {'beheshti': 46}]
+['beheshti', 16, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 8, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 12, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 37, {'shariati': 37}]
+['shariati', 9, 0, 40, {'beheshti': 40}]
+['beheshti', 12, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 22, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 14, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 45, {'shariati': 45}]
+['shariati', 16, 0, 46, {'beheshti': 46}]
+['beheshti', 8, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 11, 0, 53.0, {'shemiran': 26, 'mohammadie': 27}]
+['mohammadie', 12, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 35, {'shariati': 35}]
+['shariati', 12, 0, 61, {'beheshti': 61}]
+['beheshti', 18, 0, 54, {'heravi': 27.0, 'dolat': 27.0}]
+['dolat', 7, 0, 37.0, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 15, 0, 39, {'molavi': 19, 'kaharizak': 20}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 38, 0, 37, {'shariati': 37}]
+['shariati', 17, 0, 47, {'beheshti': 47}]
+['beheshti', 11, 0, 79, {'heravi': 39, 'dolat': 40}]
+['dolat', 23, 0, 34.0, {'shemiran': 17.0, 'mohammadie': 17.0}]
+['mohammadie', 7, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 20, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 38, {'shariati': 38}]
+['shariati', 7, 0, 54, {'beheshti': 54}]
+['beheshti', 9, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 18, 0, 63, {'shemiran': 31, 'mohammadie': 32}]
+['mohammadie', 8, 0, 24.0, {'molavi': 12.0, 'kaharizak': 12.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 31, {'shariati': 31}]
+['shariati', 15, 0, 45, {'beheshti': 45}]
+['beheshti', 11, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 13, 0, 47.0, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 10, 0, 40, {'molavi': 20.0, 'kaharizak': 20.0}]
+['kaharizak', 0, 12.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 11:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 39, {'shariati': 39}]
+['shariati', 10, 0, 46, {'beheshti': 46}]
+['beheshti', 15, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 15, 0, 45, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 16, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 20.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 44, 0, 35, {'shariati': 35}]
+['shariati', 18, 0, 49, {'beheshti': 49}]
+['beheshti', 7, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 9, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 8, 0, 39, {'molavi': 19, 'kaharizak': 20}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 44, {'shariati': 44}]
+['shariati', 14, 0, 53, {'beheshti': 53}]
+['beheshti', 7, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 4, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 11, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 20, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 39, {'shariati': 39}]
+['shariati', 19, 0, 58, {'beheshti': 58}]
+['beheshti', 6, 0, 60, {'heravi': 30.0, 'dolat': 30.0}]
+['dolat', 16, 0, 32.0, {'shemiran': 16.0, 'mohammadie': 16.0}]
+['mohammadie', 8, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 24, 0, 34, {'shariati': 34}]
+['shariati', 10, 0, 58, {'beheshti': 58}]
+['beheshti', 10, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 8, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 9, 0, 24.0, {'molavi': 12.0, 'kaharizak': 12.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 49, 0, 24, {'shariati': 24}]
+['shariati', 18, 0, 44, {'beheshti': 44}]
+['beheshti', 9, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 11, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 13, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 12.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 20, 0, 49, {'shariati': 49}]
+['shariati', 5, 0, 42, {'beheshti': 42}]
+['beheshti', 10, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 12, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 14, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 20, {'shariati': 20}]
+['shariati', 10, 0, 54, {'beheshti': 54}]
+['beheshti', 14, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 11, 0, 39, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 8, 0, 37, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 42, 0, 33, {'shariati': 33}]
+['shariati', 15, 0, 30, {'beheshti': 30}]
+['beheshti', 9, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 14, 0, 37.0, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 4, 0, 28, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 42, {'shariati': 42}]
+['shariati', 15, 0, 48, {'beheshti': 48}]
+['beheshti', 17, 0, 39, {'heravi': 19, 'dolat': 20}]
+['dolat', 10, 0, 48.0, {'shemiran': 24.0, 'mohammadie': 24.0}]
+['mohammadie', 8, 0, 23, {'molavi': 11, 'kaharizak': 12}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 12:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 28, 0, 35, {'shariati': 35}]
+['shariati', 7, 0, 57, {'beheshti': 57}]
+['beheshti', 11, 0, 65, {'heravi': 32, 'dolat': 33}]
+['dolat', 22, 0, 30, {'shemiran': 15.0, 'mohammadie': 15.0}]
+['mohammadie', 12, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 12, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 28, {'shariati': 28}]
+['shariati', 10, 0, 42, {'beheshti': 42}]
+['beheshti', 13, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 13, 0, 55, {'shemiran': 27, 'mohammadie': 28}]
+['mohammadie', 10, 0, 27.0, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 29, 0, 34, {'shariati': 34}]
+['shariati', 6, 0, 38, {'beheshti': 38}]
+['beheshti', 10, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 13, 0, 47.0, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 11, 0, 38, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 29, {'shariati': 29}]
+['shariati', 12, 0, 40, {'beheshti': 40}]
+['beheshti', 7, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 18, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 6, 0, 35, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 40, {'shariati': 40}]
+['shariati', 14, 0, 41, {'beheshti': 41}]
+['beheshti', 8, 0, 47, {'heravi': 23, 'dolat': 24}]
+['dolat', 11, 0, 42.0, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 12, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 46, 0, 37, {'shariati': 37}]
+['shariati', 16, 0, 54, {'beheshti': 54}]
+['beheshti', 5, 0, 49, {'heravi': 24, 'dolat': 25}]
+['dolat', 6, 0, 35, {'shemiran': 17, 'mohammadie': 18}]
+['mohammadie', 10, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 46, {'shariati': 46}]
+['shariati', 13, 0, 53, {'beheshti': 53}]
+['beheshti', 13, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 12, 0, 31, {'shemiran': 15, 'mohammadie': 16}]
+['mohammadie', 16, 0, 28, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 34, {'shariati': 34}]
+['shariati', 14, 0, 59, {'beheshti': 59}]
+['beheshti', 15, 0, 66, {'heravi': 33.0, 'dolat': 33.0}]
+['dolat', 11, 0, 42, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 6, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 38, 0, 36, {'shariati': 36}]
+['shariati', 15, 0, 48, {'beheshti': 48}]
+['beheshti', 5, 0, 74, {'heravi': 37.0, 'dolat': 37.0}]
+['dolat', 14, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 9, 0, 27.0, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 29, 0, 38, {'shariati': 38}]
+['shariati', 11, 0, 51, {'beheshti': 51}]
+['beheshti', 6, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 3, 0, 51.0, {'shemiran': 25, 'mohammadie': 26}]
+['mohammadie', 13, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 13:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 29, {'shariati': 29}]
+['shariati', 11, 0, 49, {'beheshti': 49}]
+['beheshti', 10, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 23, 0, 30, {'shemiran': 15.0, 'mohammadie': 15.0}]
+['mohammadie', 8, 0, 39, {'molavi': 19, 'kaharizak': 20}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 37, {'shariati': 37}]
+['shariati', 15, 0, 40, {'beheshti': 40}]
+['beheshti', 11, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 8, 0, 52, {'shemiran': 26.0, 'mohammadie': 26.0}]
+['mohammadie', 12, 0, 23.0, {'molavi': 11, 'kaharizak': 12}]
+['kaharizak', 0, 20, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 33, {'shariati': 33}]
+['shariati', 13, 0, 52, {'beheshti': 52}]
+['beheshti', 10, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 17, 0, 38, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 18, 0, 38.0, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 12, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 36, {'shariati': 36}]
+['shariati', 12, 0, 46, {'beheshti': 46}]
+['beheshti', 9, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 9, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 8, 0, 37.0, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 39, {'shariati': 39}]
+['shariati', 12, 0, 48, {'beheshti': 48}]
+['beheshti', 11, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 17, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 14, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 49, 0, 40, {'shariati': 40}]
+['shariati', 15, 0, 51, {'beheshti': 51}]
+['beheshti', 10, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 9, 0, 45, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 21, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 49, {'shariati': 49}]
+['shariati', 6, 0, 55, {'beheshti': 55}]
+['beheshti', 12, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 12, 0, 39, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 6, 0, 44, {'molavi': 22.0, 'kaharizak': 22.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 34, {'shariati': 34}]
+['shariati', 12, 0, 55, {'beheshti': 55}]
+['beheshti', 9, 0, 67, {'heravi': 33, 'dolat': 34}]
+['dolat', 12, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 10, 0, 26, {'molavi': 13.0, 'kaharizak': 13.0}]
+['kaharizak', 0, 22.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 41, {'shariati': 41}]
+['shariati', 10, 0, 46, {'beheshti': 46}]
+['beheshti', 15, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 13, 0, 46, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 7, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 13.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 31, {'shariati': 31}]
+['shariati', 13, 0, 51, {'beheshti': 51}]
+['beheshti', 6, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 9, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 13, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 14:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 37, {'shariati': 37}]
+['shariati', 17, 0, 44, {'beheshti': 44}]
+['beheshti', 8, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 8, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 10, 0, 36, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 32, {'shariati': 32}]
+['shariati', 12, 0, 54, {'beheshti': 54}]
+['beheshti', 14, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 14, 0, 37, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 7, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 45, {'shariati': 45}]
+['shariati', 14, 0, 44, {'beheshti': 44}]
+['beheshti', 11, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 8, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 11, 0, 26, {'molavi': 13.0, 'kaharizak': 13.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 35, {'shariati': 35}]
+['shariati', 12, 0, 59, {'beheshti': 59}]
+['beheshti', 12, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 13, 0, 42.0, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 15, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 13.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 40, {'shariati': 40}]
+['shariati', 14, 0, 47, {'beheshti': 47}]
+['beheshti', 8, 0, 71, {'heravi': 35, 'dolat': 36}]
+['dolat', 11, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 6, 0, 36.0, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 33, {'shariati': 33}]
+['shariati', 10, 0, 54, {'beheshti': 54}]
+['beheshti', 10, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 12, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 8, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 36, {'shariati': 36}]
+['shariati', 17, 0, 43, {'beheshti': 43}]
+['beheshti', 11, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 24, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 15, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 45, {'shariati': 45}]
+['shariati', 11, 0, 53, {'beheshti': 53}]
+['beheshti', 8, 0, 54, {'heravi': 27.0, 'dolat': 27.0}]
+['dolat', 13, 0, 56.0, {'shemiran': 28.0, 'mohammadie': 28.0}]
+['mohammadie', 10, 0, 35.0, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 31, {'shariati': 31}]
+['shariati', 14, 0, 56, {'beheshti': 56}]
+['beheshti', 6, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 12, 0, 40.0, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 11, 0, 38.0, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 34, {'shariati': 34}]
+['shariati', 10, 0, 45, {'beheshti': 45}]
+['beheshti', 13, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 12, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 11, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 15:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 29, 0, 32, {'shariati': 32}]
+['shariati', 15, 0, 44, {'beheshti': 44}]
+['beheshti', 9, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 10, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 11, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 29, {'shariati': 29}]
+['shariati', 12, 0, 47, {'beheshti': 47}]
+['beheshti', 4, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 12, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 9, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 27, 0, 34, {'shariati': 34}]
+['shariati', 9, 0, 41, {'beheshti': 41}]
+['beheshti', 10, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 7, 0, 39, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 14, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 27, {'shariati': 27}]
+['shariati', 14, 0, 43, {'beheshti': 43}]
+['beheshti', 7, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 15, 0, 33, {'shemiran': 16, 'mohammadie': 17}]
+['mohammadie', 10, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 32, {'shariati': 32}]
+['shariati', 10, 0, 41, {'beheshti': 41}]
+['beheshti', 10, 0, 50, {'heravi': 25.0, 'dolat': 25.0}]
+['dolat', 12, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 9, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 35, {'shariati': 35}]
+['shariati', 15, 0, 42, {'beheshti': 42}]
+['beheshti', 6, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 13, 0, 37.0, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 11, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 30, {'shariati': 30}]
+['shariati', 14, 0, 50, {'beheshti': 50}]
+['beheshti', 20, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 14, 0, 39, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 9, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 39, {'shariati': 39}]
+['shariati', 14, 0, 44, {'beheshti': 44}]
+['beheshti', 11, 0, 70, {'heravi': 35.0, 'dolat': 35.0}]
+['dolat', 6, 0, 38.0, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 6, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 48, 0, 35, {'shariati': 35}]
+['shariati', 9, 0, 53, {'beheshti': 53}]
+['beheshti', 11, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 6, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 13, 0, 25.0, {'molavi': 12, 'kaharizak': 13}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 48, {'shariati': 48}]
+['shariati', 13, 0, 44, {'beheshti': 44}]
+['beheshti', 13, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 12, 0, 34, {'shemiran': 17.0, 'mohammadie': 17.0}]
+['mohammadie', 7, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 13, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 16:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 52, 0, 37, {'shariati': 37}]
+['shariati', 10, 0, 61, {'beheshti': 61}]
+['beheshti', 11, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 17, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 5, 0, 24.0, {'molavi': 12.0, 'kaharizak': 12.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 52, {'shariati': 52}]
+['shariati', 12, 0, 47, {'beheshti': 47}]
+['beheshti', 8, 0, 72, {'heravi': 36.0, 'dolat': 36.0}]
+['dolat', 10, 0, 46, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 6, 0, 27.0, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 12.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 34, 0, 41, {'shariati': 41}]
+['shariati', 14, 0, 64, {'beheshti': 64}]
+['beheshti', 19, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 14, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 7, 0, 29.0, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 38, 0, 34, {'shariati': 34}]
+['shariati', 13, 0, 55, {'beheshti': 55}]
+['beheshti', 17, 0, 83, {'heravi': 41, 'dolat': 42}]
+['dolat', 12, 0, 42, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 10, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 38, {'shariati': 38}]
+['shariati', 10, 0, 47, {'beheshti': 47}]
+['beheshti', 23, 0, 72, {'heravi': 36.0, 'dolat': 36.0}]
+['dolat', 10, 0, 54, {'shemiran': 27.0, 'mohammadie': 27.0}]
+['mohammadie', 7, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 39, {'shariati': 39}]
+['shariati', 15, 0, 48, {'beheshti': 48}]
+['beheshti', 16, 0, 70, {'heravi': 35.0, 'dolat': 35.0}]
+['dolat', 18, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 11, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 31, {'shariati': 31}]
+['shariati', 11, 0, 54, {'beheshti': 54}]
+['beheshti', 13, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 16, 0, 53.0, {'shemiran': 26, 'mohammadie': 27}]
+['mohammadie', 11, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 26, 0, 40, {'shariati': 40}]
+['shariati', 7, 0, 42, {'beheshti': 42}]
+['beheshti', 14, 0, 67, {'heravi': 33, 'dolat': 34}]
+['dolat', 13, 0, 48.0, {'shemiran': 24.0, 'mohammadie': 24.0}]
+['mohammadie', 9, 0, 38, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 26, {'shariati': 26}]
+['shariati', 8, 0, 47, {'beheshti': 47}]
+['beheshti', 8, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 15, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 12, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 36, {'shariati': 36}]
+['shariati', 11, 0, 34, {'beheshti': 34}]
+['beheshti', 11, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 15, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 10, 0, 36, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 17:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 38, 0, 39, {'shariati': 39}]
+['shariati', 15, 0, 47, {'beheshti': 47}]
+['beheshti', 13, 0, 45, {'heravi': 22, 'dolat': 23}]
+['dolat', 14, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 12, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 38, {'shariati': 38}]
+['shariati', 13, 0, 54, {'beheshti': 54}]
+['beheshti', 8, 0, 60, {'heravi': 30.0, 'dolat': 30.0}]
+['dolat', 15, 0, 37, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 8, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 39, 0, 45, {'shariati': 45}]
+['shariati', 11, 0, 51, {'beheshti': 51}]
+['beheshti', 11, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 15, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 12, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 42, 0, 39, {'shariati': 39}]
+['shariati', 15, 0, 56, {'beheshti': 56}]
+['beheshti', 8, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 17, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 7, 0, 35, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 42, {'shariati': 42}]
+['shariati', 14, 0, 54, {'beheshti': 54}]
+['beheshti', 11, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 17, 0, 48.0, {'shemiran': 24.0, 'mohammadie': 24.0}]
+['mohammadie', 10, 0, 30.0, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 42, 0, 37, {'shariati': 37}]
+['shariati', 15, 0, 56, {'beheshti': 56}]
+['beheshti', 5, 0, 65, {'heravi': 32, 'dolat': 33}]
+['dolat', 10, 0, 49.0, {'shemiran': 24, 'mohammadie': 25}]
+['mohammadie', 10, 0, 34.0, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 42, {'shariati': 42}]
+['shariati', 13, 0, 52, {'beheshti': 52}]
+['beheshti', 18, 0, 61, {'heravi': 30, 'dolat': 31}]
+['dolat', 8, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 12, 0, 35, {'molavi': 17, 'kaharizak': 18}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 28, 0, 36, {'shariati': 36}]
+['shariati', 11, 0, 55, {'beheshti': 55}]
+['beheshti', 9, 0, 70, {'heravi': 35.0, 'dolat': 35.0}]
+['dolat', 15, 0, 39, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 7, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 18, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 25, 0, 28, {'shariati': 28}]
+['shariati', 14, 0, 47, {'beheshti': 47}]
+['beheshti', 12, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 12, 0, 50.0, {'shemiran': 25.0, 'mohammadie': 25.0}]
+['mohammadie', 11, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 25, {'shariati': 25}]
+['shariati', 16, 0, 42, {'beheshti': 42}]
+['beheshti', 10, 0, 59, {'heravi': 29, 'dolat': 30}]
+['dolat', 13, 0, 44.0, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 10, 0, 36.0, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 18:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 23, 0, 31, {'shariati': 31}]
+['shariati', 6, 0, 41, {'beheshti': 41}]
+['beheshti', 16, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 17, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 4, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 45, 0, 23, {'shariati': 23}]
+['shariati', 8, 0, 37, {'beheshti': 37}]
+['beheshti', 12, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 14, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 14, 0, 26, {'molavi': 13.0, 'kaharizak': 13.0}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 45, {'shariati': 45}]
+['shariati', 17, 0, 31, {'beheshti': 31}]
+['beheshti', 8, 0, 49, {'heravi': 24, 'dolat': 25}]
+['dolat', 13, 0, 43, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 11, 0, 36, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 13.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 32, 0, 36, {'shariati': 36}]
+['shariati', 13, 0, 62, {'beheshti': 62}]
+['beheshti', 6, 0, 39, {'heravi': 19, 'dolat': 20}]
+['dolat', 17, 0, 38, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 8, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 32, {'shariati': 32}]
+['shariati', 13, 0, 49, {'beheshti': 49}]
+['beheshti', 7, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 15, 0, 37, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 11, 0, 27.0, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 42, 0, 41, {'shariati': 41}]
+['shariati', 15, 0, 45, {'beheshti': 45}]
+['beheshti', 6, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 10, 0, 49.0, {'shemiran': 24, 'mohammadie': 25}]
+['mohammadie', 9, 0, 30, {'molavi': 15.0, 'kaharizak': 15.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 42, {'shariati': 42}]
+['shariati', 12, 0, 56, {'beheshti': 56}]
+['beheshti', 6, 0, 51, {'heravi': 25, 'dolat': 26}]
+['dolat', 10, 0, 38.0, {'shemiran': 19.0, 'mohammadie': 19.0}]
+['mohammadie', 8, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 41, 0, 37, {'shariati': 37}]
+['shariati', 17, 0, 54, {'beheshti': 54}]
+['beheshti', 10, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 14, 0, 36, {'shemiran': 18.0, 'mohammadie': 18.0}]
+['mohammadie', 10, 0, 27.0, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 44, 0, 41, {'shariati': 41}]
+['shariati', 13, 0, 54, {'beheshti': 54}]
+['beheshti', 13, 0, 64, {'heravi': 32.0, 'dolat': 32.0}]
+['dolat', 15, 0, 45.0, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 10, 0, 28.0, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 35, 0, 44, {'shariati': 44}]
+['shariati', 11, 0, 54, {'beheshti': 54}]
+['beheshti', 9, 0, 67, {'heravi': 33, 'dolat': 34}]
+['dolat', 13, 0, 47.0, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 14, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 19:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 35, {'shariati': 35}]
+['shariati', 19, 0, 55, {'beheshti': 55}]
+['beheshti', 7, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 12, 0, 47, {'shemiran': 23, 'mohammadie': 24}]
+['mohammadie', 9, 0, 38, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 36, {'shariati': 36}]
+['shariati', 13, 0, 54, {'beheshti': 54}]
+['beheshti', 8, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 11, 0, 44, {'shemiran': 22.0, 'mohammadie': 22.0}]
+['mohammadie', 14, 0, 33, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 37, {'shariati': 37}]
+['shariati', 10, 0, 49, {'beheshti': 49}]
+['beheshti', 4, 0, 62, {'heravi': 31.0, 'dolat': 31.0}]
+['dolat', 17, 0, 42.0, {'shemiran': 21.0, 'mohammadie': 21.0}]
+['mohammadie', 11, 0, 36.0, {'molavi': 18.0, 'kaharizak': 18.0}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 33, 0, 37, {'shariati': 37}]
+['shariati', 6, 0, 47, {'beheshti': 47}]
+['beheshti', 11, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 10, 0, 48.0, {'shemiran': 24.0, 'mohammadie': 24.0}]
+['mohammadie', 13, 0, 32.0, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 18.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 36, 0, 33, {'shariati': 33}]
+['shariati', 19, 0, 43, {'beheshti': 43}]
+['beheshti', 15, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 14, 0, 37, {'shemiran': 18, 'mohammadie': 19}]
+['mohammadie', 15, 0, 37.0, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 36, {'shariati': 36}]
+['shariati', 9, 0, 52, {'beheshti': 52}]
+['beheshti', 11, 0, 58, {'heravi': 29.0, 'dolat': 29.0}]
+['dolat', 12, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 5, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 31, {'shariati': 31}]
+['shariati', 14, 0, 45, {'beheshti': 45}]
+['beheshti', 8, 0, 63, {'heravi': 31, 'dolat': 32}]
+['dolat', 13, 0, 41.0, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 8, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 37, 0, 31, {'shariati': 31}]
+['shariati', 15, 0, 45, {'beheshti': 45}]
+['beheshti', 7, 0, 53, {'heravi': 26, 'dolat': 27}]
+['dolat', 14, 0, 45, {'shemiran': 22, 'mohammadie': 23}]
+['mohammadie', 11, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 25, 0, 37, {'shariati': 37}]
+['shariati', 13, 0, 46, {'beheshti': 46}]
+['beheshti', 10, 0, 52, {'heravi': 26.0, 'dolat': 26.0}]
+['dolat', 13, 0, 41, {'shemiran': 20, 'mohammadie': 21}]
+['mohammadie', 6, 0, 34, {'molavi': 17.0, 'kaharizak': 17.0}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 31, 0, 25, {'shariati': 25}]
+['shariati', 12, 0, 50, {'beheshti': 50}]
+['beheshti', 7, 0, 56, {'heravi': 28.0, 'dolat': 28.0}]
+['dolat', 11, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 12, 0, 27, {'molavi': 13, 'kaharizak': 14}]
+['kaharizak', 0, 17.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 20:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 38, 0, 31, {'shariati': 31}]
+['shariati', 11, 0, 37, {'beheshti': 37}]
+['beheshti', 12, 0, 57, {'heravi': 28, 'dolat': 29}]
+['dolat', 11, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 9, 0, 32, {'molavi': 16.0, 'kaharizak': 16.0}]
+['kaharizak', 0, 14, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 44, 0, 38, {'shariati': 38}]
+['shariati', 12, 0, 42, {'beheshti': 42}]
+['beheshti', 6, 0, 49, {'heravi': 24, 'dolat': 25}]
+['dolat', 15, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 11, 0, 29, {'molavi': 14, 'kaharizak': 15}]
+['kaharizak', 0, 16.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:6
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 44, 0, 44, {'shariati': 44}]
+['shariati', 14, 0, 50, {'beheshti': 50}]
+['beheshti', 4, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 19, 0, 40, {'shemiran': 20.0, 'mohammadie': 20.0}]
+['mohammadie', 8, 0, 31.0, {'molavi': 15, 'kaharizak': 16}]
+['kaharizak', 0, 15, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:12
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 30, 0, 44, {'shariati': 44}]
+['shariati', 19, 0, 58, {'beheshti': 58}]
+['beheshti', 12, 0, 54, {'heravi': 27.0, 'dolat': 27.0}]
+['dolat', 12, 0, 43.0, {'shemiran': 21, 'mohammadie': 22}]
+['mohammadie', 15, 0, 28.0, {'molavi': 14.0, 'kaharizak': 14.0}]
+['kaharizak', 0, 16, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:18
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 40, 0, 30, {'shariati': 30}]
+['shariati', 12, 0, 63, {'beheshti': 63}]
+['beheshti', 5, 0, 70, {'heravi': 35.0, 'dolat': 35.0}]
+['dolat', 15, 0, 39.0, {'shemiran': 19, 'mohammadie': 20}]
+['mohammadie', 18, 0, 37, {'molavi': 18, 'kaharizak': 19}]
+['kaharizak', 0, 14.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:24
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 47, 0, 40, {'shariati': 40}]
+['shariati', 8, 0, 42, {'beheshti': 42}]
+['beheshti', 13, 0, 68, {'heravi': 34.0, 'dolat': 34.0}]
+['dolat', 12, 0, 50.0, {'shemiran': 25.0, 'mohammadie': 25.0}]
+['mohammadie', 8, 0, 38, {'molavi': 19.0, 'kaharizak': 19.0}]
+['kaharizak', 0, 19, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+#####
+1-1-1403 21:30
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 47, {'shariati': 47}]
+['shariati', 0, 0, 48, {'beheshti': 48}]
+['beheshti', 0, 0, 55, {'heravi': 27, 'dolat': 28}]
+['dolat', 0, 0, 46.0, {'shemiran': 23.0, 'mohammadie': 23.0}]
+['mohammadie', 0, 0, 33.0, {'molavi': 16, 'kaharizak': 17}]
+['kaharizak', 0, 19.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:36
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 0, {'shariati': 0}]
+['shariati', 0, 0, 47, {'beheshti': 47}]
+['beheshti', 0, 0, 48, {'heravi': 24.0, 'dolat': 24.0}]
+['dolat', 0, 0, 28, {'shemiran': 14.0, 'mohammadie': 14.0}]
+['mohammadie', 0, 0, 23.0, {'molavi': 11, 'kaharizak': 12}]
+['kaharizak', 0, 17, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:42
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 0, {'shariati': 0}]
+['shariati', 0, 0, 0, {'beheshti': 0}]
+['beheshti', 0, 0, 47, {'heravi': 23, 'dolat': 24}]
+['dolat', 0, 0, 24.0, {'shemiran': 12.0, 'mohammadie': 12.0}]
+['mohammadie', 0, 0, 14.0, {'molavi': 7.0, 'kaharizak': 7.0}]
+['kaharizak', 0, 12, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:48
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 0, {'shariati': 0}]
+['shariati', 0, 0, 0, {'beheshti': 0}]
+['beheshti', 0, 0, 0, {'heravi': 0.0, 'dolat': 0.0}]
+['dolat', 0, 0, 24, {'shemiran': 12.0, 'mohammadie': 12.0}]
+['mohammadie', 0, 0, 12.0, {'molavi': 6.0, 'kaharizak': 6.0}]
+['kaharizak', 0, 7.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 21:54
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 0, {'shariati': 0}]
+['shariati', 0, 0, 0, {'beheshti': 0}]
+['beheshti', 0, 0, 0, {'heravi': 0.0, 'dolat': 0.0}]
+['dolat', 0, 0, 0.0, {'shemiran': 0.0, 'mohammadie': 0.0}]
+['mohammadie', 0, 0, 12.0, {'molavi': 6.0, 'kaharizak': 6.0}]
+['kaharizak', 0, 6.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+1-1-1403 22:0
+['name', 'input', 'output', 'people_inside', 'people_to_next']
+['tajrish', 0, 0, 0, {'shariati': 0}]
+['shariati', 0, 0, 0, {'beheshti': 0}]
+['beheshti', 0, 0, 0, {'heravi': 0.0, 'dolat': 0.0}]
+['dolat', 0, 0, 0.0, {'shemiran': 0.0, 'mohammadie': 0.0}]
+['mohammadie', 0, 0, 0.0, {'molavi': 0.0, 'kaharizak': 0.0}]
+['kaharizak', 0, 6.0, 0, {}]
+#$#$#$#$#$#$#$#$#$#$
+#####
+(.ids_tff) zerobits01@funnylife:~/ml-hw/ml-project$ git add .
+(.ids_tff) zerobits01@funnylife:~/ml-hw/ml-project$ git commit -am "solving problem for one day complete, this time! :)"
+[master ec62555] solving problem for one day complete, this time! :)
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+(.ids_tff) zerobits01@funnylife:~/ml-hw/ml-project$ 

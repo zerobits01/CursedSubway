@@ -48,7 +48,7 @@ import numpy as np
 import pandas as pd
 from classes.global_time import GlobalTime
 from classes.stations import *
-from classes.subway import *
+from classes.subway_month import *
 from utility.graphical_mode import visualize_subway_lines
 from utility.print_debugs import print_lines, print_start_stations
 

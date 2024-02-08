@@ -12,7 +12,6 @@ class SubwayLine:
         self.stations = stations
 
 
-
 def ending_for(line_stations, ranging_value=6):
     for line1 in line_stations:
         for i in reversed(range(ranging_value)):
@@ -71,82 +70,92 @@ def run_subway_lines(global_time: GlobalTime, lines):
                 station.generate_current_input()
             for line1 in line_stations:
                 print_people_info(line1)
+            done_stations = []
             for line1 in line_stations:
                 if i == 0:
                     # problem for people inside and people coming
                     # it means it's 06:00
-                    for i in reversed(range(2)):
-                        line1[i].put_people_inside()
-                        if line1[i].prev_stations.__len__() == 1:
-                            line1[i].people_inside = line1[i].people_inside +\
-                                line1[i].prev_stations[0].people_to_next[line1[i].name]
-                        elif line1[i].prev_stations.__len__() == 2:
+                    for j in reversed(range(2)):
+                        if line1[j] in done_stations:
+                            continue
+                        done_stations.append(line1[j])
+                        line1[j].put_people_inside()
+                        if line1[j].prev_stations.__len__() == 1:
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                        elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
-                            line1[i].people_inside = \
-                                line1[i].people_inside + \
-                                    line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                    line1[i].prev_stations[1].people_to_next[line1[i].name]
-                        line1[i].define_people_to_next()
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                        line1[j].define_people_to_next()
                 elif i == 1:
                     # it means it's 06:06
-                    for i in reversed(range(3)):
-                        line1[i].put_people_inside()
-                        # if line1[i].prev_stations.__len__() != 0:
-                        if line1[i].prev_stations.__len__() == 1:
-                            line1[i].people_inside = line1[i].people_inside +\
-                                line1[i].prev_stations[0].people_to_next[line1[i].name]
-                        elif line1[i].prev_stations.__len__() == 2:
+                    for j in reversed(range(3)):
+                        if line1[j] in done_stations:
+                            continue
+                        done_stations.append(line1[j])
+                        line1[j].put_people_inside()
+                        if line1[j].prev_stations.__len__() == 1:
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                        elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
-                            line1[i].people_inside = \
-                                line1[i].people_inside + \
-                                    line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                    line1[i].prev_stations[1].people_to_next[line1[i].name]
-                        line1[i].define_people_to_next()
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                        line1[j].define_people_to_next()
                 elif i == 2:
                     # it means it's 06:12
-                    for i in reversed(range(4)):
-                        line1[i].put_people_inside()
-                        # if line1[i].prev_stations.__len__() != 0:
-                        if line1[i].prev_stations.__len__() == 1:
-                            line1[i].people_inside = line1[i].people_inside +\
-                                line1[i].prev_stations[0].people_to_next[line1[i].name]
-                        elif line1[i].prev_stations.__len__() == 2:
+                    for j in reversed(range(4)):
+                        if line1[j] in done_stations:
+                            continue
+                        done_stations.append(line1[j])
+                        line1[j].put_people_inside()
+                        if line1[j].prev_stations.__len__() == 1:
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                        elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
-                            line1[i].people_inside = \
-                                line1[i].people_inside + \
-                                    line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                    line1[i].prev_stations[1].people_to_next[line1[i].name]
-                        line1[i].define_people_to_next()
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                        line1[j].define_people_to_next()
                 elif i == 3:
-                    # it means it's 06:18
-                    for i in reversed(range(5)):
-                        line1[i].put_people_inside()
-                        # if line1[i].prev_stations.__len__() != 0:
-                        if line1[i].prev_stations.__len__() == 1:
-                            line1[i].people_inside = line1[i].people_inside +\
-                                line1[i].prev_stations[0].people_to_next[line1[i].name]
-                        elif line1[i].prev_stations.__len__() == 2:
+                    for j in reversed(range(5)):
+                        if line1[j] in done_stations:
+                            continue
+                        done_stations.append(line1[j])
+                        line1[j].put_people_inside()
+                        if line1[j].prev_stations.__len__() == 1:
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                        elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
-                            line1[i].people_inside = \
-                                line1[i].people_inside + \
-                                    line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                    line1[i].prev_stations[1].people_to_next[line1[i].name]
-                        line1[i].define_people_to_next()
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                        line1[j].define_people_to_next()
                 elif i == 4:
-                    # it means it's 06:24
-                    for i in reversed(range(6)):
-                        line1[i].put_people_inside()
-                        # if line1[i].prev_stations.__len__() != 0:
-                        if line1[i].prev_stations.__len__() == 1:
-                            line1[i].people_inside = line1[i].people_inside +\
-                                line1[i].prev_stations[0].people_to_next[line1[i].name]
-                        elif line1[i].prev_stations.__len__() == 2:
+                    for j in reversed(range(6)):
+                        if line1[j] in done_stations:
+                            continue
+                        done_stations.append(line1[j])
+                        line1[j].put_people_inside()
+                        if line1[j].prev_stations.__len__() == 1:
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                        elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
-                            line1[i].people_inside = \
-                                line1[i].people_inside + \
-                                    line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                    line1[i].prev_stations[1].people_to_next[line1[i].name]
-                        line1[i].define_people_to_next()
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                        line1[j].define_people_to_next()
 
             global_time.increase_time()
                        
@@ -155,25 +164,27 @@ def run_subway_lines(global_time: GlobalTime, lines):
         while(True):
             if global_time.hour == 21 and global_time.minute == 30:
                 break
-            # print(global_time.get_date_time())
-            # for station in set_line_stations:
-            #     station.generate_current_input()
-            # for line1 in line_stations:
-            #     print_people_info(line1)
-            # for line1 in line_stations:
-            #     for i in reversed(range(6)):
-            #             line1[i].put_people_inside()
-            #             # if line1[i].prev_stations.__len__() != 0:
-            #             if line1[i].prev_stations.__len__() == 1:
-            #                 line1[i].people_inside = line1[i].people_inside +\
-            #                     line1[i].prev_stations[0].people_to_next[line1[i].name]
-            #             elif line1[i].prev_stations.__len__() == 2:
-            #                 # here i am sure that i have two trains but if i had more i could write a for loop
-            #                 line1[i].people_inside = \
-            #                     line1[i].people_inside + \
-            #                         line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-            #                         line1[i].prev_stations[1].people_to_next[line1[i].name]
-            #             line1[i].define_people_to_next()
+            print(global_time.get_date_time())
+            for station in set_line_stations:
+                station.generate_current_input()
+            done_stations = []
+            for line1 in line_stations:
+                print_people_info(line1)
+                for j in reversed(range(6)):
+                    if line1[j] in done_stations:
+                        continue
+                    done_stations.append(line1[j])
+                    line1[j].put_people_inside()
+                    if line1[j].prev_stations.__len__() == 1:
+                        line1[j].people_inside = line1[j].people_inside +\
+                            line1[j].prev_stations[0].people_to_next[line1[j].name]
+                    elif line1[j].prev_stations.__len__() == 2:
+                        # here i am sure that i have two trains but if i had more i could write a for loop
+                        line1[j].people_inside = \
+                            line1[j].people_inside + \
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                line1[j].prev_stations[1].people_to_next[line1[j].name]
+                    line1[j].define_people_to_next()
             global_time.increase_time()
         print(5*'#')
         ############################### 21:30 to 22:00 ###############################
@@ -181,33 +192,35 @@ def run_subway_lines(global_time: GlobalTime, lines):
             print(global_time.get_date_time())
             for line1 in line_stations:
                 print_people_info(line1)
+            done_stations = []
             for line1 in line_stations:
-                for i in reversed(range(6)):
-                    line1[i].put_people_inside()
-                    # if line1[i].prev_stations.__len__() != 0:
-                    if line1[i].prev_stations.__len__() == 1:
-                        line1[i].people_inside = line1[i].people_inside +\
-                            line1[i].prev_stations[0].people_to_next[line1[i].name]
-                    elif line1[i].prev_stations.__len__() == 2:
+                for j in reversed(range(6)):
+                    if line1[j] in done_stations:
+                        continue
+                    done_stations.append(line1[j])
+                    line1[j].put_people_inside()
+                    if line1[j].prev_stations.__len__() == 1:
+                        # print(f"people inside {line1[j]}",
+                        #     line1[j].people_inside,
+                        #     "people coming:",
+                        #     line1[j].prev_stations[0].people_to_next[line1[j].name],
+                        # )
+                        line1[j].people_inside = line1[j].people_inside +\
+                            line1[j].prev_stations[0].people_to_next[line1[j].name]
+                    elif line1[j].prev_stations.__len__() == 2:
                         # here i am sure that i have two trains but if i had more i could write a for loop
-                        line1[i].people_inside = \
-                            line1[i].people_inside + \
-                                line1[i].prev_stations[0].people_to_next[line1[i].name] + \
-                                line1[i].prev_stations[1].people_to_next[line1[i].name]
-                    line1[i].define_people_to_next()
-            # ending_for(line_stations=line_stations)
-            # if k == 0:
-            #     ending_for(line_stations=line_stations, ranging_value=6)
-            # elif k == 1:
-            #     ending_for(line_stations=line_stations, ranging_value=5)
-            # elif k == 2:
-            #     ending_for(line_stations=line_stations, ranging_value=4)
-            # elif k == 3:
-            #     ending_for(line_stations=line_stations, ranging_value=3)
-            # elif k == 4:
-            #     ending_for(line_stations=line_stations, ranging_value=2)
-            # elif k == 1:
-            #     ending_for(line_stations=line_stations, ranging_value=1)
+                        # print(f"people inside {line1[j]}",
+                        #     line1[j].people_inside,
+                        #     f"people coming from {line1[j].prev_stations[0].name}:",
+                        #     line1[j].prev_stations[0].people_to_next[line1[j].name],
+                        #     f"people coming from {line1[j].prev_stations[1].name}:",
+                        #     line1[j].prev_stations[1].people_to_next[line1[j].name],
+                        # )
+                        line1[j].people_inside = \
+                            line1[j].people_inside + \
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                line1[j].prev_stations[1].people_to_next[line1[j].name]
+                    line1[j].define_people_to_next()
             global_time.increase_time()
         else:
             print(global_time.get_date_time())

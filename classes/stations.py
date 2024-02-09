@@ -66,10 +66,10 @@ class SubwayStation:
         return self.input_value
 
 
-    def generate_current_output(self):
+    def generate_current_output(self, limit):
         self.output_value = np.random.poisson(self.input_poisson_rate)
-        if self.output_value > self.people_inside:
-            self.output_value = self.people_inside
+        if self.output_value > limit:
+            self.output_value = limit
         return self.output_value
 
 
@@ -121,8 +121,9 @@ class SubwayLastStation(SubwayStation):
         super().__init__(name)
 
     # this has been overwritten for last stations
-    def generate_current_output(self):
-        return self.people_inside
+    def generate_current_output(self, limit):
+        self.output_value = limit
+        return limit
     
     def define_people_to_next(self):
         self.output_value = self.people_inside

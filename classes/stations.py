@@ -120,10 +120,15 @@ class SubwayLastStation(SubwayStation):
     def __init__(self, name):
         super().__init__(name)
 
+
+    def put_people_inside(self):
+        pass
+
     # this has been overwritten for last stations
     def generate_current_output(self, limit):
         self.output_value = limit
         return limit
+    
     
     def define_people_to_next(self):
         self.output_value = self.people_inside

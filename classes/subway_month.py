@@ -1,6 +1,6 @@
 from classes.global_time import GlobalTime
 from utility.print_debugs import print_people_info
-
+from classes.stations import *
 
 class SubwayLine:
     '''defining class of lines which they may have different stations
@@ -56,14 +56,7 @@ def run_subway_lines(global_time: GlobalTime, lines):
     for stations in line_stations:
         set_line_stations = set_line_stations.union(set(stations))
     while True:
-        
         ############################### 06:00 to 06:30 ###############################
-        '''
-            its 06:00
-            i have only input rate accumulated on stations 
-            which train didnt come yet no people to next stations and no one out 
-        '''
-        
         for i in range(0,5):
             print(global_time.get_date_time())
             for station in set_line_stations:
@@ -98,14 +91,24 @@ def run_subway_lines(global_time: GlobalTime, lines):
                         done_stations.append(line1[j])
                         line1[j].put_people_inside()
                         if line1[j].prev_stations.__len__() == 1:
+                            prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                )
+                            if issubclass(type(line1[j]), SubwayLastStation):
+                                line1[j].generate_current_output(prev)
+                                continue
                             line1[j].people_inside = line1[j].people_inside +\
-                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
                         elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
+                            prev = line1[j].generate_current_output(
+                                        line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                        line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    )
                             line1[j].people_inside = \
                                 line1[j].people_inside + \
                                     line1[j].prev_stations[0].people_to_next[line1[j].name] + \
-                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
                         line1[j].define_people_to_next()
                 elif i == 2:
                     # it means it's 06:12
@@ -115,46 +118,80 @@ def run_subway_lines(global_time: GlobalTime, lines):
                         done_stations.append(line1[j])
                         line1[j].put_people_inside()
                         if line1[j].prev_stations.__len__() == 1:
+                            prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                )
+                            if issubclass(type(line1[j]), SubwayLastStation):
+                                line1[j].generate_current_output(prev)
+                                continue
                             line1[j].people_inside = line1[j].people_inside +\
-                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
                         elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
+                            prev = line1[j].generate_current_output(
+                                        line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                        line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    )
                             line1[j].people_inside = \
                                 line1[j].people_inside + \
                                     line1[j].prev_stations[0].people_to_next[line1[j].name] + \
-                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
                         line1[j].define_people_to_next()
                 elif i == 3:
+                    # it means it's 06:18
                     for j in reversed(range(5)):
                         if line1[j] in done_stations:
                             continue
                         done_stations.append(line1[j])
                         line1[j].put_people_inside()
                         if line1[j].prev_stations.__len__() == 1:
+                            prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                )
+                            if issubclass(type(line1[j]), SubwayLastStation):
+                                line1[j].generate_current_output(prev)
+                                continue
                             line1[j].people_inside = line1[j].people_inside +\
-                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
                         elif line1[j].prev_stations.__len__() == 2:
                             # here i am sure that i have two trains but if i had more i could write a for loop
+                            prev = line1[j].generate_current_output(
+                                        line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                        line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    )
                             line1[j].people_inside = \
                                 line1[j].people_inside + \
                                     line1[j].prev_stations[0].people_to_next[line1[j].name] + \
-                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
                         line1[j].define_people_to_next()
                 elif i == 4:
+                    # it means it's 06:24
                     for j in reversed(range(6)):
                         if line1[j] in done_stations:
                             continue
                         done_stations.append(line1[j])
-                        prev_inside = 0
-                        for prev_stat in line1[j].prev_stations:
-                            prev_inside = prev_inside + prev_stat.people_to_next[line1[j].name]
                         line1[j].put_people_inside()
-                        line1[j].generate_current_output(limit=prev_inside)
-                        line1[j].people_inside = line1[j].people_inside + prev_inside - line1[j].output_value
+                        if line1[j].prev_stations.__len__() == 1:
+                            prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name]
+                                )
+                            if issubclass(type(line1[j]), SubwayLastStation):
+                                line1[j].generate_current_output(prev)
+                                continue
+                            line1[j].people_inside = line1[j].people_inside +\
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
+                        elif line1[j].prev_stations.__len__() == 2:
+                            # here i am sure that i have two trains but if i had more i could write a for loop
+                            prev = line1[j].generate_current_output(
+                                        line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                        line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                    )
+                            line1[j].people_inside = \
+                                line1[j].people_inside + \
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
                         line1[j].define_people_to_next()
-
-            global_time.increase_time()
-                       
+            global_time.increase_time()                  
         print(5*'#')
         ############################### 06:30 to 21:30 ###############################
         while(True):
@@ -163,19 +200,34 @@ def run_subway_lines(global_time: GlobalTime, lines):
             print(global_time.get_date_time())
             for station in set_line_stations:
                 station.generate_current_input()
-            done_stations = []
             for line1 in line_stations:
                 print_people_info(line1)
+            done_stations = []
+            for line1 in line_stations:
                 for j in reversed(range(6)):
                     if line1[j] in done_stations:
                         continue
                     done_stations.append(line1[j])
-                    prev_inside = 0
-                    for prev_stat in line1[j].prev_stations:
-                        prev_inside = prev_inside + prev_stat.people_to_next[line1[j].name]
                     line1[j].put_people_inside()
-                    line1[j].generate_current_output(limit=prev_inside)
-                    line1[j].people_inside = line1[j].people_inside + prev_inside - line1[j].output_value
+                    if line1[j].prev_stations.__len__() == 1:
+                        prev = line1[j].generate_current_output(
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                            )
+                        if issubclass(type(line1[j]), SubwayLastStation):
+                            line1[j].generate_current_output(prev)
+                            continue
+                        line1[j].people_inside = line1[j].people_inside +\
+                            line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
+                    elif line1[j].prev_stations.__len__() == 2:
+                        # here i am sure that i have two trains but if i had more i could write a for loop
+                        prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                )
+                        line1[j].people_inside = \
+                            line1[j].people_inside + \
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
                     line1[j].define_people_to_next()
             global_time.increase_time()
         print(5*'#')
@@ -190,12 +242,27 @@ def run_subway_lines(global_time: GlobalTime, lines):
                     if line1[j] in done_stations:
                         continue
                     done_stations.append(line1[j])
-                    prev_inside = 0
-                    for prev_stat in line1[j].prev_stations:
-                        prev_inside = prev_inside + prev_stat.people_to_next[line1[j].name]
                     line1[j].put_people_inside()
-                    line1[j].generate_current_output(limit=prev_inside)
-                    line1[j].people_inside = line1[j].people_inside + prev_inside - line1[j].output_value
+                    if line1[j].prev_stations.__len__() == 1:
+                        prev = line1[j].generate_current_output(
+                                line1[j].prev_stations[0].people_to_next[line1[j].name]
+                            )
+                        if issubclass(type(line1[j]), SubwayLastStation):
+                            line1[j].generate_current_output(prev)
+                            continue
+                        line1[j].people_inside = line1[j].people_inside +\
+                            line1[j].prev_stations[0].people_to_next[line1[j].name] - prev
+                    elif line1[j].prev_stations.__len__() == 2:
+                        # here i am sure that i have two trains but if i had more i could write a for loop
+                        prev = line1[j].generate_current_output(
+                                    line1[j].prev_stations[0].people_to_next[line1[j].name] +
+                                    line1[j].prev_stations[1].people_to_next[line1[j].name]
+                                )
+                        line1[j].people_inside = \
+                            line1[j].people_inside + \
+                                line1[j].prev_stations[0].people_to_next[line1[j].name] + \
+                                line1[j].prev_stations[1].people_to_next[line1[j].name] - prev
+                                    
                     line1[j].define_people_to_next()
             global_time.increase_time()
         else:

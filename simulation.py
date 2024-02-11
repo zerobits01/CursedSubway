@@ -44,19 +44,11 @@ what can be the problems:
 #implement: choose a good validation param test it and show why its good
 '''
 
-import numpy as np
-import pandas as pd
 from classes.global_time import GlobalTime
 from classes.stations import *
 from classes.subway_month import *
 from utility.graphical_mode import visualize_subway_lines
-from utility.print_debugs import print_lines, print_start_stations
-
-# seperated datasets
-tajrish_line_dataset = pd.DataFrame(columns=["stationname","datetime","input","output", "peopleinsidetrain"])
-sanaat_line_dataset = pd.DataFrame(columns=["stationname","datetime","input","output", "peopleinsidetrain"])
-satari_line_dataset = pd.DataFrame(columns=["stationname","datetime","input","output", "peopleinsidetrain"])
-azadi_line_dataset = pd.DataFrame(columns=["stationname","datetime","input","output", "peopleinsidetrain"])
+from utility.dataset import SubwayDataset
 
 
 def define_lines():
@@ -149,11 +141,13 @@ def define_lines():
 def main():
     define_lines()
     lines = [line1, line2, line3, line4]
-    # visualize_subway_lines(lines)
+    visualize_subway_lines(lines)
     global glob_time
     glob_time = GlobalTime()
-    run_subway_lines(global_time=glob_time, lines=lines)
-
+    subway_ds = SubwayDataset()
+    run_subway_lines(global_time=glob_time, lines=lines, subway_ds=subway_ds)
+    subway_ds.describe()
+    subway_ds.save("subway_dataset.csv")
 
 if __name__ == "__main__":
     main()

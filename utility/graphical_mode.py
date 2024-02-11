@@ -1,6 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from classes.subway import SubwayLine
+from classes.subway_month import SubwayLine
 
 # Defining a Class 
 class GraphVisualization:
@@ -22,6 +22,7 @@ def visualize_subway_lines(lines):
     if type(lines) is not list or len(lines) == 0:
         raise ValueError("lines should be a non empty list of subway lines")
     for line in lines:
+        # print(type(line))
         if not issubclass(type(line), SubwayLine):
             raise ValueError("each line in subway lines should be type of SubwayLine Class")
     G = GraphVisualization()

@@ -62,7 +62,7 @@ def run_subway_lines(global_time: GlobalTime, lines, subway_ds):
             for station in set_line_stations:
                 station.generate_current_input()
             for line1 in line_stations:
-                print_people_info(line1, global_time.get_date_time(), subway_ds)
+                print_people_info(line1, global_time, subway_ds)
             done_stations = []
             for line1 in line_stations:
                 if i == 0:
@@ -201,7 +201,7 @@ def run_subway_lines(global_time: GlobalTime, lines, subway_ds):
             for station in set_line_stations:
                 station.generate_current_input()
             for line1 in line_stations:
-                print_people_info(line1, global_time.get_date_time(), subway_ds)
+                print_people_info(line1, global_time, subway_ds)
             done_stations = []
             for line1 in line_stations:
                 for j in reversed(range(6)):
@@ -235,7 +235,7 @@ def run_subway_lines(global_time: GlobalTime, lines, subway_ds):
         for k in range(5):
             print(global_time.get_date_time())
             for line1 in line_stations:
-                print_people_info(line1, global_time.get_date_time(), subway_ds)
+                print_people_info(line1, global_time, subway_ds)
             done_stations = []
             for line1 in line_stations:
                 for j in reversed(range(6)):
@@ -268,7 +268,7 @@ def run_subway_lines(global_time: GlobalTime, lines, subway_ds):
         else:
             print(global_time.get_date_time())
             for stations in line_stations:
-                print_people_info(stations, global_time.get_date_time(), subway_ds)
+                print_people_info(stations, global_time, subway_ds)
             print(5*'#')
             if global_time.day == 31 and global_time.hour == 22:
                 global_time.increase_time()

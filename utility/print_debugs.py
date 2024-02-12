@@ -46,7 +46,10 @@ def print_people_info(stations, datetime, subway_ds):
         # )
         record = {
             "stationname": station.name,
-            "datetime": datetime,
+            "datetime": datetime.get_date_time(),
+            "day": datetime.day,
+            "hour": datetime.hour,
+            "minute": datetime.minute,
             "input": station.input_value,
             "output": station.output_value, 
             "peopleinsidetrain": station.people_inside

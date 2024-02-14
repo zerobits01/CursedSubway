@@ -142,12 +142,12 @@ def main():
     define_lines()
     lines = [line1, line2, line3, line4]
     visualize_subway_lines(lines)
-    global glob_time
-    glob_time = GlobalTime()
-    subway_ds = SubwayDataset()
-    run_subway_lines(global_time=glob_time, lines=lines, subway_ds=subway_ds)
-    subway_ds.describe()
-    subway_ds.save("subway_dataset.csv")
+    # global glob_time
+    # glob_time = GlobalTime()
+    # subway_ds = SubwayDataset()
+    # run_subway_lines(global_time=glob_time, lines=lines, subway_ds=subway_ds)
+    # subway_ds.describe()
+    # subway_ds.save("subway_dataset.csv")
 
 if __name__ == "__main__":
     main()
